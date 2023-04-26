@@ -1,6 +1,5 @@
 
 def second_largest_num(digit_list):
-    print("Testing")
     digit_list.sort(reverse=True)
     print("Sorted list: ", digit_list)
     return digit_list[1]
